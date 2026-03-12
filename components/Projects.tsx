@@ -4,18 +4,24 @@ const projects = [
     description:
       "Fine-tuned Whisper model that converts lectures into structured notes using speech recognition and text summarization.",
     tech: ["Python", "Whisper", "Transformers", "NLP"],
+    github: "https://github.com/DenzelMalik",
+    demo: "#",
   },
   {
     title: "AI Career Chatbot",
     description:
       "NLP-powered chatbot that helps users explore career paths using sentence classification and decision trees.",
     tech: ["Python", "Transformers", "Scikit-learn", "NLP"],
+    github: "https://github.com/DenzelMalik",
+    demo: "#",
   },
   {
     title: "Bitcoin Price Prediction",
     description:
-      "A Deep Learning model that predicts the price of Bitcoin of in the next 5 days. This model can be applied to any assetes",
+      "A deep learning model that predicts Bitcoin price movements for the next 5 days.",
     tech: ["Python", "Deep Learning"],
+    github: "https://github.com/DenzelMalik",
+    demo: "#",
   },
 ];
 
@@ -53,6 +59,23 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
+              <div className="flex gap-3 mt-4">
+                <a
+                    href={project.github}
+                    target="_blank"
+                    className="text-sm border border-gray-700 px-3 py-1 rounded hover:bg-white hover:text-black transition"
+                >
+                    GitHub
+                </a>
+
+                <a
+                    href={project.demo}
+                    target="_blank"
+                    className="text-sm border border-gray-700 px-3 py-1 rounded hover:bg-white hover:text-black transition"
+                >
+                    Live Demo
+                </a>
+                </div>
             </div>
           ))}
 
