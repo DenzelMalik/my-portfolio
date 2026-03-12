@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Denzel's Portfolio",
-  description: "Portfolio of Denzel Malik Ibrahim, an AI Engineer specializing in Machine/Deep Learning",
+  title: "Denzel Malik | Machine Learning Engineer",
+  description: "Portfolio of Denzel Malik Ibrahim, an AI Engineer specializing in Machine & Deep Learning",
 };
 
 export default function RootLayout({
